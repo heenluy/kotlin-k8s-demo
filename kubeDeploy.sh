@@ -18,7 +18,7 @@ echo "[DEPLOY] Error: it is necessary to have 'minikube' installed!"
 exit
 fi
 
-#minikube start --driver=docker
+minikube start --driver=docker
 
 echo "[DEPLOY] Creating the deployment"
 kubectl version
@@ -38,5 +38,3 @@ minikube service $PROJECT_NAME
 else
 exit
 fi
-
-# LEMBRE-SE DO CHMOD
