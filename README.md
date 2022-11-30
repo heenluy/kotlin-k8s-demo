@@ -12,7 +12,7 @@ chmod +x kubeDeploy.sh
 #### What will you need?
 1. Have [Docker](https://docs.docker.com/engine/install/ubuntu/) installed on your machine.
 2. Manage Docker as a non-root user (optional). [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
-3. Have [Minikube](link) installed on your machine.
-4. Have [Kubectl](link) installed on your machine.
+3. Have [Minikube](https://minikube.sigs.k8s.io/docs/start/) installed on your machine.
+4. Have [Kubectl](https://kubernetes.io/docs/tasks/tools/) installed on your machine.
 
 *That's it* 🥳
